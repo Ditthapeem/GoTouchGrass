@@ -69,7 +69,7 @@ class DailyDataModel: ObservableObject {
         newEntity.breakfast = 0
         newEntity.lunch = 0
         newEntity.dinner = 0
-        newEntity.sleep = 0
+        newEntity.sleep = 7
         newEntity.totalTime = 0 // Initialize with correct default values
         newEntity.exercises = [:] as NSObject
 
@@ -78,7 +78,7 @@ class DailyDataModel: ObservableObject {
             breakfast: 0,
             lunch: 0,
             dinner: 0,
-            sleep: 0,
+            sleep: 7,
             totalTime: 0, // Ensure proper initialization
             exercises: [:]
         )
@@ -475,7 +475,7 @@ struct ContentView: View {
                         HStack{
                             CustomStatBox(stat: "Sleep") {
                                 if let dailyData = dailyDataModel.dailyData {
-                                    Text("\(dailyData.sleep) min")
+                                    Text("\(dailyData.sleep) Hr")
                                         .fontWeight(.semibold)
                                         .font(.system(size: 20))
                                 } else {

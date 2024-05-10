@@ -228,7 +228,7 @@ struct StatView: View {
                     HStack{
                         CustomStatBox(stat: "Sleep") {
                             if let dailyData = dailyDataModel.dailyData {
-                                Text("\(dailyData.sleep) min")
+                                Text("\(dailyData.sleep) Hr")
                                     .fontWeight(.semibold)
                                     .font(.system(size: 20))
                             } else {
@@ -251,9 +251,13 @@ struct StatView: View {
                         
                     }
                 }
+                .padding(18)
             Spacer()
         }
     }
+        .onAppear {
+            dailyDataModel.loadDailyData()
+        }
         .edgesIgnoringSafeArea(.top)
         .edgesIgnoringSafeArea(.bottom)
 }

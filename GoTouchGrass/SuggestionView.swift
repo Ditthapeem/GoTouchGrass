@@ -149,7 +149,7 @@ struct SuggestionView: View {
                     ZStack{
                         RoundedRectangle(cornerRadius: 20)
                             .fill(Color(red: 234/255, green: 238/255, blue: 212/255))
-                            .frame(width: 387, height: 427)
+                            .frame(width: 370, height: 427)
                         VStack{
                             HStack(spacing: 40){
                                 ZStack {
@@ -246,7 +246,7 @@ struct SuggestionView: View {
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
                             .fill(Color(red: 234/255, green: 238/255, blue: 212/255))
-                            .frame(width: 387, height: 207)
+                            .frame(width: 370, height: 150)
                         
                         ScrollView {
                             VStack(spacing: 10) {
@@ -254,7 +254,7 @@ struct SuggestionView: View {
                                     if let exercise = exerciseList[exerciseName] {
                                         RoundedRectangle(cornerRadius: 10)
                                             .fill(Color.white)
-                                            .frame(width: 350, height: 130) // Adjust size as needed
+                                            .frame(width: 350, height: 120) // Adjust size as needed
                                             .overlay(
                                                 Button(action: {
                                                     if selectedExercises[exerciseName] != nil {
@@ -286,7 +286,7 @@ struct SuggestionView: View {
                             }
                             .padding()
                         }
-                        .frame(width: 367, height: 187)
+                        .frame(width: 367, height: 150)
                         .clipped()
                     }
                     
