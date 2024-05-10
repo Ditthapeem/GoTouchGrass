@@ -268,15 +268,19 @@ struct ContentView: View {
                         .font(.system(size: 20))
                         .padding(.leading, -160)
                         .padding(.top)
+                    
                     Button(action: {
                         self.isShowingSuggestionView = true
                     }) {
-                        Text("Button Text")
-                            .foregroundColor(.white)
+                        // Use Image as background for the button
+                        Image("Suggest") // Image name from Assets
+                            .resizable()
+                            .aspectRatio(contentMode: .fill) // Adjust to fill the button frame
+                            .frame(width: 370, height: 111) // Size of the button
+                            .cornerRadius(20) // Apply corner radius
+                            .clipped() // Clipping to maintain corner radius
                     }
-                    .frame(width: 370, height: 111)
-                    .background(Color.blue)
-                    .cornerRadius(20)
+                    
                     NavigationLink(
                         destination: SuggestionView(dailyDataModel: dailyDataModel),
                         isActive: $isShowingSuggestionView
