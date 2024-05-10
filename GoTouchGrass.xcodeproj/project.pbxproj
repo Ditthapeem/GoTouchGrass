@@ -16,6 +16,14 @@
 		6F2321962BB1C8710094F8BC /* GoTouchGrassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2321952BB1C8710094F8BC /* GoTouchGrassTests.swift */; };
 		6F2321A02BB1C8710094F8BC /* GoTouchGrassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F23219F2BB1C8710094F8BC /* GoTouchGrassUITests.swift */; };
 		6F2321A22BB1C8710094F8BC /* GoTouchGrassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2321A12BB1C8710094F8BC /* GoTouchGrassUITestsLaunchTests.swift */; };
+		6F2321AF2BB1CA480094F8BC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2321AE2BB1CA480094F8BC /* MapView.swift */; };
+		6F2321B12BB1CA610094F8BC /* SuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2321B02BB1CA610094F8BC /* SuggestionView.swift */; };
+		6F2321B32BB1CA730094F8BC /* StatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2321B22BB1CA730094F8BC /* StatView.swift */; };
+		6F2321B52BB1CC830094F8BC /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2321B42BB1CC830094F8BC /* NavigationBar.swift */; };
+		6F522F2A2BED36980088FC03 /* DailyDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F522F282BED36970088FC03 /* DailyDataModel.xcdatamodeld */; };
+		6F522F2C2BED376B0088FC03 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F522F2B2BED376B0088FC03 /* CoreDataStack.swift */; };
+		6FDA38852BBC449000231EF2 /* CustomStatBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA38842BBC449000231EF2 /* CustomStatBox.swift */; };
+		6FDA38872BCEAF6900231EF2 /* MealInputPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDA38862BCEAF6800231EF2 /* MealInputPopup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		6F23219B2BB1C8710094F8BC /* GoTouchGrassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoTouchGrassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F23219F2BB1C8710094F8BC /* GoTouchGrassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoTouchGrassUITests.swift; sourceTree = "<group>"; };
 		6F2321A12BB1C8710094F8BC /* GoTouchGrassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoTouchGrassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6F2321AE2BB1CA480094F8BC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6F2321B02BB1CA610094F8BC /* SuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionView.swift; sourceTree = "<group>"; };
+		6F2321B22BB1CA730094F8BC /* StatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatView.swift; sourceTree = "<group>"; };
+		6F2321B42BB1CC830094F8BC /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		6F522F292BED36980088FC03 /* DailyDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyDataModel.xcdatamodel; sourceTree = "<group>"; };
+		6F522F2B2BED376B0088FC03 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		6FDA38842BBC449000231EF2 /* CustomStatBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStatBox.swift; sourceTree = "<group>"; };
+		6FDA38862BCEAF6800231EF2 /* MealInputPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealInputPopup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +118,18 @@
 				6F23217E2BB1C86F0094F8BC /* GoTouchGrassApp.swift */,
 				6F2321802BB1C86F0094F8BC /* Persistence.swift */,
 				6F2321852BB1C86F0094F8BC /* ContentView.swift */,
+				6F2321B42BB1CC830094F8BC /* NavigationBar.swift */,
 				6F2321872BB1C8710094F8BC /* Assets.xcassets */,
 				6F2321892BB1C8710094F8BC /* GoTouchGrass.entitlements */,
 				6F2321822BB1C86F0094F8BC /* GoTouchGrass.xcdatamodeld */,
 				6F23218A2BB1C8710094F8BC /* Preview Content */,
+				6F2321AE2BB1CA480094F8BC /* MapView.swift */,
+				6F2321B02BB1CA610094F8BC /* SuggestionView.swift */,
+				6F2321B22BB1CA730094F8BC /* StatView.swift */,
+				6FDA38842BBC449000231EF2 /* CustomStatBox.swift */,
+				6FDA38862BCEAF6800231EF2 /* MealInputPopup.swift */,
+				6F522F282BED36970088FC03 /* DailyDataModel.xcdatamodeld */,
+				6F522F2B2BED376B0088FC03 /* CoreDataStack.swift */,
 			);
 			path = GoTouchGrass;
 			sourceTree = "<group>";
@@ -266,8 +290,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F23217F2BB1C86F0094F8BC /* GoTouchGrassApp.swift in Sources */,
+				6F2321B32BB1CA730094F8BC /* StatView.swift in Sources */,
 				6F2321812BB1C86F0094F8BC /* Persistence.swift in Sources */,
+				6F522F2C2BED376B0088FC03 /* CoreDataStack.swift in Sources */,
+				6F2321B52BB1CC830094F8BC /* NavigationBar.swift in Sources */,
+				6F2321AF2BB1CA480094F8BC /* MapView.swift in Sources */,
 				6F2321862BB1C86F0094F8BC /* ContentView.swift in Sources */,
+				6F522F2A2BED36980088FC03 /* DailyDataModel.xcdatamodeld in Sources */,
+				6FDA38872BCEAF6900231EF2 /* MealInputPopup.swift in Sources */,
+				6FDA38852BBC449000231EF2 /* CustomStatBox.swift in Sources */,
+				6F2321B12BB1CA610094F8BC /* SuggestionView.swift in Sources */,
 				6F2321842BB1C86F0094F8BC /* GoTouchGrass.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +462,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GoTouchGrass/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to provide location-based services while you are using the app.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide location-based services even when the app is running in the background.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -466,6 +501,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GoTouchGrass/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to provide location-based services while you are using the app.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide location-based services even when the app is running in the background.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -626,6 +664,16 @@
 			);
 			currentVersion = 6F2321832BB1C86F0094F8BC /* GoTouchGrass.xcdatamodel */;
 			path = GoTouchGrass.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		6F522F282BED36970088FC03 /* DailyDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F522F292BED36980088FC03 /* DailyDataModel.xcdatamodel */,
+			);
+			currentVersion = 6F522F292BED36980088FC03 /* DailyDataModel.xcdatamodel */;
+			path = DailyDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

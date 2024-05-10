@@ -13,7 +13,7 @@ struct GoTouchGrassApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(dailyDataModel: DailyDataModel())
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
