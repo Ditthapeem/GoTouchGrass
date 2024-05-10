@@ -13,8 +13,10 @@ struct GoTouchGrassApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView(dailyDataModel: DailyDataModel())
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            NavigationView {
+                NavigationBar()
+                    .environmentObject(DailyDataModel()) // Pass in any required environment objects
+            }
         }
     }
 }
